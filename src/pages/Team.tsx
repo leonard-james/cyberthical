@@ -20,7 +20,7 @@ export default function Team() {
       {/* ── Banner ──────────────────────────────────────── */}
       <div
         className="relative h-56 flex items-end pb-10 px-6 overflow-hidden"
-        style={{ backgroundImage: "url('/img/hero-carousel/ethicalhacking.jpeg')" }}
+        style={{ backgroundImage: "url('/assets/img/hero-carousel/ethicalhacking.jpeg')" }}
         aria-label="Team page banner"
       >
         <div className="hero-overlay absolute inset-0" aria-hidden="true" />
@@ -42,7 +42,6 @@ export default function Team() {
 
           <motion.div {...fadeUp()} className="text-center mb-4">
             <span className="font-mono text-cyber-cyan text-xs tracking-[0.3em] uppercase">
-              // The Crew
             </span>
           </motion.div>
           <motion.h2
