@@ -5,12 +5,12 @@
 
 /* ── Hero carousel images ─────────────────────────────── */
 export const heroSlides = [
-  { src: '/assets/img/hero-carousel/ethicalhacking.jpeg',  alt: 'Ethical Hacking' },
-  { src: '/assets/img/hero-carousel/cybersecurity.jpg',    alt: 'Cybersecurity' },
-  { src: '/assets/img/hero-carousel/cybersecurity1.jpg',   alt: 'Cybersecurity 1' },
-  { src: '/assets/img/hero-carousel/ethicalhacking1.jpg',  alt: 'Ethical Hacking 1' },
-  { src: '/assets/img/hero-carousel/cybersecurity2.jpg',   alt: 'Cybersecurity 2' },
-  { src: '/assets/img/hero-carousel/ethicalhacking2.jpg',  alt: 'Ethical Hacking 2' },
+  { src: '/img/hero-carousel/ethicalhacking.jpeg',  alt: 'Ethical Hacking' },
+  { src: '/img/hero-carousel/cybersecurity.jpg',    alt: 'Cybersecurity' },
+  { src: '/img/hero-carousel/cybersecurity1.jpg',   alt: 'Cybersecurity 1' },
+  { src: '/img/hero-carousel/ethicalhacking1.jpg',  alt: 'Ethical Hacking 1' },
+  { src: '/img/hero-carousel/cybersecurity2.jpg',   alt: 'Cybersecurity 2' },
+  { src: '/img/hero-carousel/ethicalhacking2.jpg',  alt: 'Ethical Hacking 2' },
 ];
 
 /* ── Cybersecurity categories (flip cards) ────────────── */
@@ -25,41 +25,41 @@ export const cyberCategories: CyberCategory[] = [
   {
     id: 'network',
     title: 'Network Security',
-    image: '/assets/img/types/network.jpg',
+    image: '/img/types/network.jpg',
     description:
       'Is the practice of securing a computer network from intruders, whether targeted attackers or opportunistic malware.',
   },
   {
     id: 'application',
     title: 'Application Security',
-    image: '/assets/img/types/application.jpg',
+    image: '/img/types/application.jpg',
     description:
       'Focuses on keeping software and devices free of threats. A compromised application could provide access to the data it\'s designed to protect. Successful security begins in the design stage, well before a program or device is deployed.',
   },
   {
     id: 'information',
     title: 'Information Security',
-    image: '/assets/img/types/information.jpg',
+    image: '/img/types/information.jpg',
     description: 'Securing sensitive data from unauthorized access or modification.',
   },
   {
     id: 'operational',
     title: 'Operational Security',
-    image: '/assets/img/types/operational.jpg',
+    image: '/img/types/operational.jpg',
     description:
       'Includes the processes and decisions for handling and protecting data assets. The permissions users have when accessing a network and the procedures that determine how and where data may be stored or shared all fall under this umbrella.',
   },
   {
     id: 'disaster',
     title: 'Disaster Recovery & Business Continuity',
-    image: '/assets/img/types/disaster.jpg',
+    image: '/img/types/disaster.jpg',
     description:
       'Define how an organization responds to a cyber-security incident or any other event that causes the loss of operations or data. Disaster recovery policies dictate how the organization restores its operations and information to return to the same operating capacity as before the event. Business continuity is the plan the organization falls back on while trying to operate without certain resources.',
   },
   {
     id: 'education',
     title: 'End-user Education',
-    image: '/assets/img/types/educational.jpg',
+    image: '/img/types/educational.jpg',
     description:
       'Addresses the most unpredictable cyber-security factor: people. Anyone can accidentally introduce a virus to an otherwise secure system by failing to follow good security practices. Teaching users to delete suspicious email attachments, not plug in unidentified USB drives, and various other important lessons is vital for the security of any organization.',
   },
@@ -78,7 +78,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'web-app',
     title: 'Web Application Hacking',
-    image: '/assets/img/ha/web.jpg',
+    image: '/img/ha/web.jpg',
     tags: ['SQL Injection', 'XSS', 'Web'],
     description:
       'It involves testing web applications for vulnerabilities like SQL injection, cross-site scripting (XSS), and security misconfigurations. Ethical hackers focus on identifying flaws that could allow unauthorized access or data breaches.',
@@ -86,7 +86,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'network',
     title: 'Network Hacking',
-    image: '/assets/img/ha/networking.jpg',
+    image: '/img/ha/networking.jpg',
     tags: ['Port Scanning', 'Protocols', 'Network'],
     description:
       'It focuses on identifying weaknesses in a network\'s security. This includes scanning for open ports, identifying vulnerable services, and exploiting weaknesses in network protocols to gain unauthorized access or disrupt services.',
@@ -94,7 +94,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'wireless',
     title: 'Wireless Network Hacking',
-    image: '/assets/img/ha/wlan.jpg',
+    image: '/img/ha/wlan.jpg',
     tags: ['WEP', 'WPA', 'Wi-Fi'],
     description:
       'It targets wireless networks to find and exploit Wi-Fi security protocols like WEP, WPA, and WPA2 vulnerabilities. The goal is to gain unauthorized access to the wireless network or intercept data.',
@@ -102,7 +102,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'system',
     title: 'System Hacking',
-    image: '/assets/img/ha/system.jpg',
+    image: '/img/ha/system.jpg',
     tags: ['Password Cracking', 'Privilege Escalation'],
     description:
       'It involves hacking into individual systems to gain unauthorized access, escalate privileges, or execute malicious actions. Techniques include password cracking, exploiting system vulnerabilities, and installing malicious software.',
@@ -110,7 +110,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'social',
     title: 'Social Engineering',
-    image: '/assets/img/ha/social.jpg',
+    image: '/img/ha/social.jpg',
     tags: ['Phishing', 'Baiting', 'Human Factor'],
     description:
       'It exploits human psychology to gain unauthorized access to systems or information. Ethical hackers use phishing, baiting, or pretexting to trick users into revealing sensitive information or performing actions that compromise security.',
@@ -118,7 +118,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'mobile',
     title: 'Ethical Hacking of Mobile Platforms',
-    image: '/assets/img/ha/ehmp.jpg',
+    image: '/img/ha/ehmp.jpg',
     tags: ['iOS', 'Android', 'Mobile Apps'],
     description:
       'It focuses on identifying vulnerabilities in mobile operating systems (iOS, Android) and applications. This includes testing for insecure data storage, insufficient transport layer protection, and weak authentication mechanisms.',
@@ -126,7 +126,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'physical',
     title: 'Physical Hacking',
-    image: '/assets/img/ha/physical.jpg',
+    image: '/img/ha/physical.jpg',
     tags: ['Physical Access', 'Locks', 'Biometrics'],
     description:
       'It involves gaining unauthorized physical access to facilities or devices. Ethical hackers may test the security of physical entry points, such as doors, locks, and biometric systems, to identify vulnerabilities that could allow unauthorized access.',
@@ -134,7 +134,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'cloud',
     title: 'Cloud Security Testing',
-    image: '/assets/img/ha/csl.jpg',
+    image: '/img/ha/csl.jpg',
     tags: ['Cloud', 'APIs', 'Misconfiguration'],
     description:
       'It involves assessing the security of cloud infrastructure, applications, and services. Ethical hackers test for misconfigurations, insecure APIs, and other vulnerabilities that could be exploited in a cloud environment.',
@@ -142,7 +142,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'iot',
     title: 'IoT (Internet of Things) Hacking',
-    image: '/assets/img/ha/iot.jpg',
+    image: '/img/ha/iot.jpg',
     tags: ['IoT', 'Smart Devices', 'Wearables'],
     description:
       'It focuses on identifying security flaws in IoT devices and networks. This includes testing the security of smart devices, wearable technology, and other connected devices to prevent unauthorized access and data breaches.',
@@ -150,7 +150,7 @@ export const hackingTypes: HackingType[] = [
   {
     id: 'reverse',
     title: 'Reverse Engineering',
-    image: '/assets/img/ha/reverse.jpg',
+    image: '/img/ha/reverse.jpg',
     tags: ['Firmware', 'Malware Analysis', 'Exploit Dev'],
     description:
       'It involves analyzing software or hardware to discover vulnerabilities, understand how it works, or develop exploits. Ethical hackers use reverse engineering to uncover hidden flaws or malicious code within applications or firmware.',
@@ -170,7 +170,7 @@ export const hackerTypes: HackerType[] = [
   {
     id: 'white',
     title: 'White Hat Hacker',
-    image: '/assets/img/hackers/White Hat Hacker.jpg',
+    image: '/img/hackers/White Hat Hacker.jpg',
     color: 'emerald',
     description:
       'A white-hat hacker (whitehat) is an ethical security hacker. Ethical hacking is a term meant to imply a broader category than just penetration testing. Under the owner\'s consent, white-hat hackers aim to identify any vulnerabilities or security issues the current system has.',
@@ -178,7 +178,7 @@ export const hackerTypes: HackerType[] = [
   {
     id: 'gray',
     title: 'Gray Hat Hacker',
-    image: '/assets/img/hackers/Gray Hat Hacker.jpg',
+    image: '/img/hackers/Gray Hat Hacker.jpg',
     color: 'yellow',
     description:
       'A grey hat (greyhat or gray hat) is a computer hacker or computer security expert who may sometimes violate laws or typical ethical standards, but usually does not have the malicious intent typical of a black hat hacker.',
@@ -186,7 +186,7 @@ export const hackerTypes: HackerType[] = [
   {
     id: 'black',
     title: 'Black Hat Hacker',
-    image: '/assets/img/hackers/Black Hat Hacker.jpg',
+    image: '/img/hackers/Black Hat Hacker.jpg',
     color: 'red',
     description:
       'A black hat hacker (or blackhat) is a computer hacker who violates laws or ethical standards for nefarious purposes, such as cybercrime, cyberwarfare, or malice. These acts can range from piracy to identity theft. A black hat is often referred to as a "cracker".',
@@ -263,7 +263,7 @@ export const learnMoreTabs = [
     id: 'online-safety',
     label: 'Online Safety',
     heading: 'What is Online Safety?',
-    image: '/assets/img/lm/ol.jpg',
+    image: '/img/lm/ol.jpg',
     imageAlt: 'Online Safety',
     intro:
       'Online safety, also known as internet safety or cyber safety, refers to the practices and precautions individuals take to protect themselves, their data, and their digital identity while using the internet. It involves safeguarding personal information, avoiding cyber threats, and ensuring responsible online behavior to prevent risks such as hacking, cyberbullying, identity theft, and scams.',
@@ -284,7 +284,7 @@ export const learnMoreTabs = [
     id: 'cyber-threats',
     label: 'Cyber Threats',
     heading: 'What are Cyber Threats?',
-    image: '/assets/img/lm/ct.jpg',
+    image: '/img/lm/ct.jpg',
     imageAlt: 'Cyber Threats',
     intro:
       'Cyber threats refer to malicious activities or potential dangers that target computer systems, networks, and digital devices to steal, damage, or disrupt data and operations. These threats can come from hackers, cybercriminals, nation-state actors, or even insider threats within an organization.',
@@ -301,7 +301,7 @@ export const learnMoreTabs = [
     id: 'ai-security',
     label: 'AI-Driven Security',
     heading: 'What is AI-Driven Security?',
-    image: '/assets/img/lm/ai.jpg',
+    image: '/img/lm/ai.jpg',
     imageAlt: 'AI-Driven Security',
     intro:
       'AI-driven security refers to the use of artificial intelligence (AI) and machine learning (ML) to enhance cybersecurity measures, detect threats, and respond to cyberattacks more efficiently.',
@@ -330,7 +330,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Bhea Marie Geul',
     course: 'BSIT 2-2',
     role: 'Developer & Designer',
-    image: '/assets/img/member/bhea.jpg',
+    image: '/img/member/bhea.jpg',
     facebook: 'https://www.facebook.com/bheamariegeul',
     instagram: 'https://www.instagram.com/ninifulss/',
     quote: 'Love cures people — both the ones who give it and the ones who receive it. — Karl A. Menninger',
@@ -339,7 +339,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Celena Scott',
     course: 'BSIT 2-2',
     role: 'Researcher & Tester',
-    image: '/assets/img/member/Celena.jpg',
+    image: '/img/member/Celena.jpg',
     facebook: 'https://www.facebook.com/celenajean.scott',
     instagram: 'https://www.instagram.com/itzjust_cln/',
     quote:
@@ -349,7 +349,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Revin Gestiada',
     course: 'BSIT 2-2',
     role: 'Developer & Content',
-    image: '/assets/img/member/revin.jpg',
+    image: '/img/member/revin.jpg',
     facebook: 'https://www.facebook.com/revin.gestiada.3',
     instagram: 'https://www.instagram.com/reebeen',
     quote:
@@ -359,7 +359,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Leonard James Gobris',
     course: 'BSIT 2-2',
     role: 'Team Lead & Developer',
-    image: '/assets/img/member/Leonard.jpg',
+    image: '/img/member/Leonard.jpg',
     facebook: 'https://www.facebook.com/gobrisjamesleonard15',
     instagram: 'https://www.instagram.com/ley_jmes/',
     quote:

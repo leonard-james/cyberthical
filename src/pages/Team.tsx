@@ -20,7 +20,7 @@ export default function Team() {
       {/* ── Banner ──────────────────────────────────────── */}
       <div
         className="relative h-56 flex items-end pb-10 px-6 overflow-hidden"
-        style={{ backgroundImage: "url('/assets/img/hero-carousel/ethicalhacking.jpeg')" }}
+        style={{ backgroundImage: "url('/img/hero-carousel/ethicalhacking.jpeg')" }}
         aria-label="Team page banner"
       >
         <div className="hero-overlay absolute inset-0" aria-hidden="true" />

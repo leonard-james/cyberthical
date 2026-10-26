@@ -70,7 +70,7 @@ npm run dev
 ```
 cyberthical/
 ├── index.html                  # HTML entry point
-├── vite.config.ts              # Vite config — publicDir points to ../assets
+├── vite.config.ts              # Vite config — publicDir points to assets
 ├── tailwind.config.js          # Custom cyber dark colour palette
 ├── postcss.config.js
 ├── tsconfig.json
@@ -115,14 +115,14 @@ cyberthical/
 
 ## Image Assets
 
-`vite.config.ts` sets `publicDir` to `../assets`, so the shared assets are
-served from `/img/...` during development and copied into the production build
-without including unrelated workspace or Git files.
+`vite.config.ts` sets `publicDir` to the `assets` folder in this project root.
+Its contents are served from `/img/...` during development and copied to
+`dist/img/...` in production.
 
 ```
-Web-System-and-Technology/
-├── assets/          ← served as static root by Vite
-└── cyberthical/     ← React app
+cyberthical/
+├── assets/          ← static image assets
+└── src/             ← React app
 ```
 
 ### Deploying
