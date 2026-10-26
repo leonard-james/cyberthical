@@ -129,6 +129,8 @@ Web-System-and-Technology/
 
 The Vite production build includes the shared image assets automatically.
 
+For client-side routes on Vercel, keep the app's SPA fallback file in place by including a `vercel.json` rewrite so direct visits to `/learn-more`, `/features`, or `/team` resolve to `index.html` instead of returning a 404.
+
 ---
 
 ## Credits
